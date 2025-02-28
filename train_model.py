@@ -19,7 +19,7 @@ labels_dict = {
     "ship": 8,
     "truck": 9
 }
-
+#train
 def train(model, train_loader, test_loader, device):
     num_epochs = 20
     criterion = nn.CrossEntropyLoss()
